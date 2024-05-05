@@ -203,20 +203,7 @@ The confusion matrix shows that the proposed model has the highest accuracy and 
 
 The ROC curve of the model was generated using the `roc_curve` function from the `sklearn.metrics` module. The ROC curve shows the true positive rate (sensitivity) versus the false positive rate (1-specificity) for different threshold values. The area under the ROC curve (AUC) is a measure of the model's performance, with a higher AUC indicating better performance. The results of the three models are shown below:
 
-<div style="display: flex;">
-    <div style="flex: 33.33%; padding: 5px;">
-        <img src="./images/image-3.png" alt="Image 1" style="width: 100%;">
-        <div style="text-align: center; margin-top: 5px;">ROC of Proposed Model</div>
-    </div>
-    <div style="flex: 33.33%; padding: 5px;">
-        <img src="./images/image-4.png" alt="Image 2" style="width: 100%;">
-        <div style="text-align: center; margin-top: 5px;">ROC of Testing Model 1</div>
-    </div>
-    <div style="flex: 33.33%; padding: 5px;">
-        <img src="./images/image-5.png" alt="Image 3" style="width: 100%;">
-        <div style="text-align: center; margin-top: 5px;">ROC of Testing Model 2</div>
-    </div>
-</div>
+![ROCs](./images/image-6.png)
 
 As shown in the ROC curves, the proposed model has the highest AUC among the three models, indicating better performance. The ROC curve of the proposed model is closer to the top-left corner, which is the ideal position for a perfect classifier. The ROC curve of the proposed model has a higher true positive rate and a lower false positive rate compared to the other two models.
 
