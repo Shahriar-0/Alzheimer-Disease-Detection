@@ -18,6 +18,7 @@
     - [Confusion Matrix](#confusion-matrix)
     - [ROC Curve](#roc-curve)
   - [Conclusion](#conclusion)
+  - [Contributors](#contributors)
 
 ## Introduction
 
@@ -222,3 +223,8 @@ As shown in the ROC curves, the proposed model has the highest AUC among the thr
 ## Conclusion
 
 In this project, we developed a Convolutional Neural Network (CNN) to classify MRI images of patients with AD, and MCI. The proposed model achieved an accuracy of 0.89 and an F1-score of 0.89, outperforming the other two models. The proposed model has a higher precision and recall for both classes compared to the other two models. The proposed model has fewer false positive and false negative predictions compared to the other two models. The ROC curve of the proposed model has the highest AUC among the three models, indicating better performance. The proposed model is able to accurately differentiate between AD, and MCI subjects and can help in the early diagnosis of AD. The rest of of the notebook is trying to tune the model to get better results, which you can check in the notebook. The numbers represented in previous part are the results of the model with the best hyperparameters.
+
+## Contributors
+
+- [Matin Bazrafshan](https://github.com/FabulousMatin)
+- [Shahriar Attar](https://github.com/Shahriar-0)
